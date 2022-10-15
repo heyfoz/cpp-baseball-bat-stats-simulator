@@ -60,7 +60,7 @@ int main()
 	while (continueChar != 'n'
 		|| continueChar != toupper('n'))
 	{
-		simCount++;
+		simCount++; // Track # of simulations
 		cout << "Simulation # " << simCount << endl;
 		cout << "Simulating 1000 at-bats..." << endl << endl;
 
